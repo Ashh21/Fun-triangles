@@ -1,3 +1,43 @@
+
+
+
+
+
+.navigation{
+    background-color: tomato;
+    color: aliceblue;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.nav-brand{
+    font-size: large;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.nav-pills{
+    text-align: right ;
+}
+
+.list-in-line{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+    font-style: oblique;
+}
+
+.link-active {
+    font-weight: bold ;
+}
+
+.link{
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
 form{
     padding-left: 3rem;
 }
