@@ -1,0 +1,26 @@
+
+
+
+h1{
+    text-align: center;
+}
+
+label, input{
+    display: block;
+    width: 40%;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#output{
+    text-align: center;
+    margin-top: 1rem;
+}
