@@ -1,11 +1,13 @@
 
 
-
+body{
+   font-style: italic;
+}
 
 
 
 .navigation{
-    background-color: tomato;
+    background-color: #1a1aff;
     color: aliceblue;
     padding: 1rem;
     margin: auto;
@@ -32,26 +34,46 @@
 h1{
     text-align: center;
     padding-top: 2rem;
+    font-size: 2.5rem ;
 }
 
 label, input{
     display: block;
     width: 40%;
     max-width: 300px;
+    height: 5vh;
     margin: auto;
     text-align: center;
     margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    outline: none;
+    border-color:#1a1aff ;
+}
+
+label{
+    color: #1a1aff;
+    font-size: larger;
 }
 
 button{
     display: block;
     margin: auto;
     margin-top: 1rem;
+    font-size: medium;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: whitesmoke;
+    background-color: #1a1aff;
+    font-style: italic;
 }
 
 #output{
     text-align: center;
     margin-top: 1rem;
+    font-size: large;
+    color: #1a1aff;
 }
 
 .link-active {

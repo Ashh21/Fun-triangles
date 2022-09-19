@@ -2,10 +2,12 @@
 
 
 
-
+body{
+    font-style: italic;
+ }
 
 .navigation{
-    background-color: tomato;
+    background-color:#1a1aff ;
     color: aliceblue;
     padding: 1rem;
     margin: auto;
@@ -41,24 +43,47 @@
 
 h1{
     text-align: center;
+    padding-top: 1rem;
 }
 
-label, input{
-    display: block;
-    width: 50%;
-    max-width: 300px;
+label{
     margin: auto;
     text-align: center;
     margin-top: 0.5rem;
+    font-size: large;
+    color: #1a1aff;
 }
 
-button{
+input{
+    display: block;
+    width: 50%;
+    height: 5vh;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 0.4rem;
+    text-align: center;
+    font-size: large;
+    outline: none;
+    border-color:#1a1aff ;
+}
+
+
+
+.btn-check{
     display: block;
     margin: auto;
     margin-top: 1rem;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    color: whitesmoke;
+    background-color: #1a1aff;
+    border: none;
+    font-style: italic;
 }
 
 #output{
     text-align: center;
     margin-top: 1rem;
+    color: #1a1aff;
+    font-size: large;
 }
