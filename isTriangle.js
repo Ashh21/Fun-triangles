@@ -8,11 +8,16 @@ function sumOfAngles(angle1, angle2, angle3) {
 }
 
 function isTriangle(){
+   const angle1 = Number(angles[0].value)
+   const angle2 = Number(angles[1].value)
+   const angle3 =  Number(angles[2].value)
+
     sum = sumOfAngles(
-     Number(angles[0].value),
-     Number(angles[1].value),
-     Number(angles[2].value) );
-     if ( sum === 180 ){
+         angle1, angle2, angle3
+     );
+     if(angle1 <= 0 || angle2 <= 0 || angle3 <= 0){
+        message.innerText = "Input value should be positive and non-zero"
+     } else if  ( sum === 180 ){
         message.innerText = "Yay! The angles form a triangle"
      } else{
         message.innerText = "Nope! The angles does not form a triangle"
