@@ -9,17 +9,24 @@ const message = document.querySelector("#output");
 
 function calculateSum(a, b) {
     const sumOfSquares = a * a + b * b ;
-    return sumOfSquares;
+    return  sumOfSquares;
 }
 
 function calculateHypotenuse() {
+  const sideOne = Number(sideInput[0].value)
+  const sideTwo = Number(sideInput[1].value)
    const sumOfSquares = calculateSum(
-     Number(sideInput[0].value),
-     Number(sideInput[1].value)
+     sideOne, sideTwo
      ) ;
 
-     const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
-     message.innerText = "The length of hypotenuse is " + lengthOfHypotenuse     
+     if (sideOne <= 0 || sideTwo <= 0 ){
+      message.innerText = "All fields should be filled and Input value should be non-zero and positive"
+    }
+    else{
+      const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
+     message.innerText = "The length of hypotenuse is " + lengthOfHypotenuse 
+    }
+
 }
 
 calcBtn.addEventListener("click", calculateHypotenuse );
